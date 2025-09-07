@@ -1,4 +1,4 @@
-# Android VOIP - Full Project (Java, Android 15-ready)
+# Android VOIP - Full Project (Java, Android)
 
 This archive contains a ready-to-open Android Studio project (Java only) that simulates VoIP calls.
 Features included:
