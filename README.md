@@ -1,4 +1,4 @@
-# Manoj VoIPSim - Full Project (Java, Android 15-ready)
+# Android VOIP - Full Project (Java, Android 15-ready)
 
 This archive contains a ready-to-open Android Studio project (Java only) that simulates VoIP calls.
 Features included:
@@ -18,7 +18,7 @@ Features included:
 4. Run on a **physical device** (recommended) with Android 14/15 to fully test call UI behavior.
 
 ## Build signed APK on macOS (outline)
-You mentioned you'll build the signed APK on your Mac. Quick steps:
+Build the signed APK on your Mac. Quick steps:
 1. In Android Studio: Build -> Generate Signed Bundle / APK
 2. Choose APK -> Create new key store or use existing. Enter passwords and aliases.
 3. Select release build and finish. Android Studio will produce a signed APK under `app/build/outputs/apk/release/`.
