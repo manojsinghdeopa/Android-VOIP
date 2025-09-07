@@ -1,6 +1,8 @@
 # Android VOIP - Full Project (Java, Android)
 
-This archive contains a ready-to-open Android Studio project (Java only) that simulates VoIP calls.
+This Repository contains a ready-to-open Android Studio project that simulates VoIP calls.
+
+
 Features included:
 - AlarmManager exact + WorkManager fallback for scheduled incoming calls
 - Full-screen incoming UI with ringtone, vibration, auto-miss after 10s
@@ -11,14 +13,14 @@ Features included:
 - Material 3 theme integration (XML-based) and simple XML animations (fade in/out)
 - Inline comments across Java files for clarity
 
-## How to open & run (Mac / Android Studio)
-1. Unzip `Manoj_VoIP.zip`.
+## How to open & run (Android Studio)
+1. Unzip `android-voip-main.zip`.
 2. Open the project folder in **Android Studio** (AGP 8.5+ recommended).
 3. Let Gradle sync. Install any SDK/NDK prompts.
 4. Run on a **physical device** (recommended) with Android 14/15 to fully test call UI behavior.
 
-## Build signed APK on macOS (outline)
-Build the signed APK on your Mac. Quick steps:
+## Build signed APK (outline)
+Build the signed APK on your system. Quick steps:
 1. In Android Studio: Build -> Generate Signed Bundle / APK
 2. Choose APK -> Create new key store or use existing. Enter passwords and aliases.
 3. Select release build and finish. Android Studio will produce a signed APK under `app/build/outputs/apk/release/`.
@@ -32,4 +34,3 @@ Build the signed APK on your Mac. Quick steps:
 ## Notes & Troubleshooting
 - Some OEMs aggressively throttle alarms; use Battery Help to whitelist the app for reliable behavior.
 - Notifications require runtime permission on Android 13+ (the app asks on first launch).
-- This project is Java-only and avoids any third-party calling SDKs as required by the assignment.
