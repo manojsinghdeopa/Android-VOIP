@@ -14,12 +14,18 @@ Features included:
 - Inline comments across Java files for clarity
 
 ## How to open & run (Android Studio)
-1. Unzip `android-voip-main.zip`.
-2. Open the project folder in **Android Studio** (AGP 8.5+ recommended).
-3. Let Gradle sync. Install any SDK/NDK prompts.
-4. Run on a **physical device** (recommended) with Android 14/15 to fully test call UI behavior.
+1. Clone this repository:
 
-## Build signed APK (outline)
+    ```bash
+   git clone https://github.com/manojsinghdeopa/Android-VOIP.git
+
+2. Open the project in Android Studio.
+
+3. Add your Gemini API Key in the appropriate file (e.g., local.properties or BuildConfig).
+
+4. Build and run the app on an emulator or a real device.
+
+## Build signed APK
 Build the signed APK on your system. Quick steps:
 1. In Android Studio: Build -> Generate Signed Bundle / APK
 2. Choose APK -> Create new key store or use existing. Enter passwords and aliases.
@@ -31,6 +37,5 @@ Build the signed APK on your system. Quick steps:
 - Schedule again, Answer, show Ongoing Call screen with timer, press Home (timer continues via foreground service), then return and End Call. Verify call log entry shows ANSWERED duration.
 - Show the WorkManager fallback: (optional) Force device to sleep or test on an OEM that throttles alarms.
 
-## Notes & Troubleshooting
-- Some OEMs aggressively throttle alarms; use Battery Help to whitelist the app for reliable behavior.
-- Notifications require runtime permission on Android 13+ (the app asks on first launch).
+
+  
