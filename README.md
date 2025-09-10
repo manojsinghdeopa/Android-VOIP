@@ -21,9 +21,7 @@ Features included:
 
 2. Open the project in Android Studio.
 
-3. Add your Gemini API Key in the appropriate file (e.g., local.properties or BuildConfig).
-
-4. Build and run the app on an emulator or a real device.
+3. Build and run the app on an emulator or a real device.
 
 ## Build signed APK
 Build the signed APK on your system. Quick steps:
